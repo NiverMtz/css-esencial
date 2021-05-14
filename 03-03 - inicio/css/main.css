@@ -12,6 +12,7 @@
 
 /*font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;*/
 body {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;
     font-size: 100%;
     color: #FFF;
     background: url(../img/bg.jpg) no-repeat center center;
@@ -26,6 +27,7 @@ header {
 
 /* font-family: merienda-one; */
 header h1 {
+    font-family: 'Merienda One', cursive;
     font-size: 2em;
 }
 
@@ -104,6 +106,13 @@ aside section {
     height: 70px; margin-bottom: 10px;
     padding: 10px 10px 10px 30%;
     background: rgb(255, 85, 70) no-repeat 5% center;
+}
+
+section p {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20px;
 }
 
 section:nth-child(1) {
