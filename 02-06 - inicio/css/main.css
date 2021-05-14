@@ -19,6 +19,11 @@ body {
 }
 
 /* Selector de tipo elemento: header */
+header {
+    width: 100%;
+    padding: 30px 0%;
+    background: rgb(70,70,70)   ;
+}
 
 header h1 {
     font-family: merienda-one;
@@ -43,7 +48,19 @@ span:nth-child(3) { color: #F00; }
 
 /* Selector agrupado: header h1, header p */
 
+header h1, header p {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 800;
+}
+
 /* Selector de tipo ID: #contenedor */
+
+#contenedor {
+    width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+}
 
 nav {
     width: 100%; overflow: auto;
@@ -61,6 +78,10 @@ nav li:first-child {
 }
 
 /* Selector específico li#rojo */
+
+li#rojo {
+    background-color: red;
+}
 
 nav ul {
     list-style: none;
@@ -94,6 +115,13 @@ aside {
 
 /* Selector descendente: aside section */
 
+aside section {
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 30%;
+    background: rgb(255, 85, 70) no-repeat 5% center;
+}
+
 section:nth-child(1) {
     background-image: url("../img/alarm.svg");
 }
@@ -108,6 +136,14 @@ section:nth-child(3) {
 }
 
 /* Selector de tipo clase: .planes */
+
+.planes {
+    width: 32%;
+    height: 290px;
+    float: left;
+    background: #f00;
+    position: relative;
+}
 
 .planes p {
     position: absolute; bottom: 0px;
