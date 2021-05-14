@@ -3,14 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <title>Fundamentos CSS</title>
-
+<link rel="stylesheet" href="css/main.css">
 <script src="//use.edgefonts.net/merienda-one.js"></script>    
+
+<!--Sobreescribe a los estilos externos (en otro archivo)-->
+<style>
+    header {
+        background-color: #ff0;
+    }
+</style>
+
 </head>
 
 <body>
     
 <div>
-    <header>
+    <!--Sobre escribe a los estilos del head-->
+    <header style="background-color: #0f0">
         <h1>Viaja <span>Colo</span><span>mb</span><span>ia</span></h1>
         <p>Vive la experiencia Colombia!</p>
     </header>
